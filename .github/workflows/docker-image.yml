@@ -6,8 +6,8 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-  schedule:
-    - cron: '*/5 * * * *' # Chạy mỗi 5 phút
+  #schedule:
+   # - cron: '*/5 * * * *' # Chạy mỗi 5 phút
   workflow_dispatch: # Cho phép chạy thủ công từ tab Actions
 
 jobs:
